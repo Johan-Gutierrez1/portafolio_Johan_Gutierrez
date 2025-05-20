@@ -16,6 +16,17 @@ h1{
     font-family: "Underdog", system-ui;
 }
 
+.seccion-oscura{
+    color: white;
+    background-color: #1b1b32;
+}
+
+.seccion-titulo{
+    font-size: 2rem;
+    padding: 15px 0;
+    font-family: "Underdog", system-ui;
+}
+
 .navbar{
     padding: 2rem;
     background-color: #f5f6f7;
@@ -49,13 +60,23 @@ h1{
     color: #615151;
 }
 
+.sobre-mi{
+    height: 500px;
+    padding: 10px;
+}
+
+.sobre-mi .contenedor{
+    max-width: 600px;
+    text-align: center;
+}
+
 @media screen and (max-width: 767px){
     .navbar-brand{
         display: none;
     }
 }
 
-@media screen and (min-width :700px) {
+@media screen and (min-width: 700px) {
     .hero-inferior-imagen{
         max-width: 600px;
     }
