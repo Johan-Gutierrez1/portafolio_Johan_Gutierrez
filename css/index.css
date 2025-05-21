@@ -21,6 +21,11 @@ h1{
     background-color: #1b1b32;
 }
 
+.seccion-clara{
+    color: black;
+    background-color: #ffffff;
+}
+
 .seccion-titulo{
     font-size: 2rem;
     padding: 15px 0;
@@ -36,6 +41,8 @@ h1{
     align-items: center;
     justify-content: space-between;
 }
+
+/*  Seccion hero  */
 
 .hero{
     background-color: #f5f6f7;
@@ -65,10 +72,33 @@ h1{
     padding: 10px;
 }
 
+
+/*  Sección sobre mi  */
+
 .sobre-mi .contenedor{
     max-width: 600px;
     text-align: center;
 }
+
+/* Experiencia */
+
+.experiencia{
+    padding: 40px;
+}
+
+.experiencia .row div{
+    height: 250px;
+    background-color: blueviolet;
+    border: 3px solid orange;
+}
+
+.experiencia-titulo{
+    font-size: 25px;
+    font-weight: bold;
+    margin: 10px 0;
+}
+
+/* Adaptable (Responsive) */
 
 @media screen and (max-width: 767px){
     .navbar-brand{
