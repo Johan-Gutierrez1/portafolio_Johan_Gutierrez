@@ -1,139 +1,82 @@
-<!doctype html>
-
+  <!DOCTYPE html>
 <html lang="es">
 <head>
-  <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>Movie Dashboard - Mockup</title>
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Dashboard Series</title>
   <link rel="stylesheet" href="styles.css">
 </head>
 <body>
   <div class="app">
+    <!-- Sidebar -->
     <aside class="sidebar">
-      <div class="brand">🎬 Movies</div>
+      <div class="brand">🎬 SeriesHub</div>
       <ul class="menu">
-        <li>Discover</li>
-        <li>Top Rated</li>
-        <li>Watchlist</li>
-        <li>Downloaded</li>
-        <li style="margin-top:8px"><small>Settings · Log out</small></li>
+        <li>🏠 Inicio</li>
+        <li>⭐ Favoritos</li>
+        <li>📺 Explorar</li>
+        <li>⚙️ Configuración</li>
       </ul>
-    </aside><main class="main">
-  <section class="hero">
-    <div class="poster" aria-hidden="true"></div>
-    <div class="info">
-      <h2>Peaky Blinders</h2>
-      <div class="meta">Series · 2013 · Crime, Drama</div>
-      <p style="color:#334155;opacity:0.95;line-height:1.5;margin:10px 0 0 0">Tommy Shelby lidera a la familia mientras navegan por el hampa de Birmingham tras la Primera Guerra Mundial. Tensión, estilo y una banda sonora memorable.</p>
-      <div class="cta">
-        <button class="btn primary">Watch Trailer</button>
-        <button class="btn ghost">Add to Watchlist</button>
-      </div>
-    </div>
-  </section>
+    </aside>
 
-  <section class="section">
-    <h3>Watchlist</h3>
-    <div class="grid">
-      <div class="card">
-        <div class="thumb" style="background-image:url('https://picsum.photos/400/240?random=11')"></div>
-        <div class="title">Queen's Gambit</div>
-        <div class="tags">Drama · 7.8 · 6 seasons</div>
-      </div>
+    <!-- Main Content -->
+    <main class="main">
+      <!-- Hero -->
+      <section class="hero">
+        <div class="poster"></div>
+        <div class="info">
+          <h2>Peaky Blinders</h2>
+          <p class="meta">Drama | Temporadas: 6</p>
+          <div class="cta">
+            <button class="btn primary">▶ Reproducir</button>
+            <button class="btn ghost">+ Lista</button>
+          </div>
+        </div>
+      </section>
 
-      <div class="card">
-        <div class="thumb" style="background-image:url('https://picsum.photos/400/240?random=12')"></div>
-        <div class="title">Ozark</div>
-        <div class="tags">Crime · 8.1 · 4 seasons</div>
-      </div>
+      <!-- Section -->
+      <section class="section">
+        <h3>Series Populares</h3>
+        <div class="grid">
+          <div class="card">
+            <div class="thumb" style="background-image:url('https://picsum.photos/200/300?1')"></div>
+            <div class="title">Dark</div>
+            <div class="tags">Ciencia Ficción</div>
+          </div>
+          <div class="card">
+            <div class="thumb" style="background-image:url('https://picsum.photos/200/300?2')"></div>
+            <div class="title">Breaking Bad</div>
+            <div class="tags">Drama</div>
+          </div>
+          <div class="card">
+            <div class="thumb" style="background-image:url('https://picsum.photos/200/300?3')"></div>
+            <div class="title">The Witcher</div>
+            <div class="tags">Fantasía</div>
+          </div>
+        </div>
+      </section>
+    </main>
 
-      <div class="card">
-        <div class="thumb" style="background-image:url('https://picsum.photos/400/240?random=13')"></div>
-        <div class="title">Breaking Bad</div>
-        <div class="tags">Crime · 9.5 · 5 seasons</div>
-      </div>
-    </div>
-  </section>
-
-  <section class="section">
-    <h3>Popular series</h3>
-    <div class="grid">
-      <div class="card">
-        <div class="thumb" style="background-image:url('https://picsum.photos/400/240?random=21')"></div>
-        <div class="title">Narcos</div>
-        <div class="tags">Crime · 8.8</div>
-      </div>
-
-      <div class="card">
-        <div class="thumb" style="background-image:url('https://picsum.photos/400/240?random=22')"></div>
-        <div class="title">Stranger Things</div>
-        <div class="tags">Sci-fi · 8.7</div>
-      </div>
-
-      <div class="card">
-        <div class="thumb" style="background-image:url('https://picsum.photos/400/240?random=23')"></div>
-        <div class="title">The Crown</div>
-        <div class="tags">Drama · 8.6</div>
-      </div>
-    </div>
-  </section>
-
-</main>
-
-<aside class="right-col">
-  <h4 style="margin:0 0 12px 0">Acclaimed</h4>
-  <ul class="right-list">
-    <li>
-      <div class="small-thumb" style="background-image:url('https://picsum.photos/80/110?random=31')"></div>
-      <div>
-        <div class="meta-small">The Crown</div>
-        <div style="color:var(--muted);font-size:12px">Drama · 9.0</div>
-      </div>
-    </li>
-    <li>
-      <div class="small-thumb" style="background-image:url('https://picsum.photos/80/110?random=32')"></div>
-      <div>
-        <div class="meta-small">Vikings</div>
-        <div style="color:var(--muted);font-size:12px">Action · 8.2</div>
-      </div>
-    </li>
-    <li>
-      <div class="small-thumb" style="background-image:url('https://picsum.photos/80/110?random=33')"></div>
-      <div>
-        <div class="meta-small">You</div>
-        <div style="color:var(--muted);font-size:12px">Thriller · 7.5</div>
-      </div>
-    </li>
-  </ul>
-
-  <div style="margin-top:20px">
-    <div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:10px">
-      <strong>Best Artist</strong>
-      <span class="pill">Top</span>
-    </div>
-    <div style="display:grid;gap:10px">
-      <div style="display:flex;gap:10px;align-items:center">
-        <div class="small-thumb" style="width:48px;height:48px;border-radius:8px;background-image:url('https://picsum.photos/60/60?random=41')"></div>
-        <div style="font-size:14px">Stranger Things</div>
-      </div>
-      <div style="display:flex;gap:10px;align-items:center">
-        <div class="small-thumb" style="width:48px;height:48px;border-radius:8px;background-image:url('https://picsum.photos/60/60?random=42')"></div>
-        <div style="font-size:14px">House of Cards</div>
-      </div>
-    </div>
+    <!-- Right Column -->
+    <aside class="right-col">
+      <h3>Recomendados</h3>
+      <ul class="right-list">
+        <li>
+          <div class="small-thumb" style="background-image:url('https://picsum.photos/100/150?4')"></div>
+          <div>
+            <div class="meta-small">Stranger Things</div>
+            <span class="pill">Top 1</span>
+          </div>
+        </li>
+        <li>
+          <div class="small-thumb" style="background-image:url('https://picsum.photos/100/150?5')"></div>
+          <div>
+            <div class="meta-small">Game of Thrones</div>
+            <span class="pill">Top 2</span>
+          </div>
+        </li>
+      </ul>
+    </aside>
   </div>
-
-</aside>
-
-  </div>  <script>
-    // small enhancement: make menu items clickable (visual)
-    document.querySelectorAll('.menu li').forEach(li => {
-      li.addEventListener('click', () => {
-        document.querySelectorAll('.menu li').forEach(x => x.style.background='');
-        li.style.background = '#eef2ff';
-      });
-    });
-  </script></body>
+</body>
 </html>
-
